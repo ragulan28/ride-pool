@@ -1,0 +1,28 @@
+import React, {Component} from "react"
+// import AutoFill from "./src/container/AutoFill";
+import HomeScreen from "./src/container/HomeScreen";
+import {StackNavigator} from "react-navigation";
+import WaitingForPassenger from "./src/container/WaitingForPassenger";
+
+
+// const AppNavigator = StackNavigator({
+//         Home: {screen: HomeScreen},
+//         Waiting: {screen: WaitingForPassenger},
+//     },
+//     {
+//         initialRouteName: 'Home',
+//     }
+// );
+
+
+export default class App extends Component {
+    render() {
+        return (
+            <WaitingForPassenger/>
+        );
+    }
+}
+
+
+
+//    "firebaviewse": "^5.5.5",
